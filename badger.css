@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+
+
+h1 {
+  text-transform: uppercase;
+  border-bottom: 5px solid;
+  font-size: 80px;
+  text-shadow: 2px 2px 5px #0c4271;
+}
+#purpose {
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px 5px #0c4271;
+}
+img {
+  height: 350px;
+  border-radius: 50%;
+  color: whitesmoke;
+  box-sizing: 50%;
+}
+#profile_Picture {
+  padding-bottom: 50px;
+  color: whitesmoke;
+}
+#profile_Picture:hover {
+  box-shadow:2px 2px 5px #0c4271;
+  transition: 0.3s;
+  
+}
+body {
+    padding: 25px;
+    background-image: linear-gradient(to bottom right, #0a81ab, #0c4271);
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: 2px 2px 5px #0c4271;
+    scroll-behavior: smooth;
+  }
+  
+  .dark-mode {
+    background-image: linear-gradient(to bottom right,#121212, rgb(54, 0, 54));
+    color: #BB86FC;
+  }
+
+  #introduction {
+      display: flex;
+      align-items: center; 
+      flex-direction: column;
+      justify-content: center;
+      height: 50vh;
+  }
+button {
+  align-self: center;
+  margin: 30px auto 0;
+  padding: 20px 25px;
+  color: whitesmoke;
+  background: none;
+  font-size: 14px;
+  text-decoration-color: whitesmoke;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  box-shadow: #0c4271;
+}
+button:hover {
+  color: #0c4271 ;
+  background-color: whitesmoke;
+  border-color: #0c4271;
+  transition: 0.3s;
+}
+#commentform {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+#postID{
+  background-color:whitesmoke;
+  border: none;
+  box-shadow: 2px 2px 5px #0c4271;
+  height: 150px;
+  width: 500px;
+  font-size: 20px;
+  border-radius: 8px;
+  text-align: start;
+}
+#comment-submit {
+  margin: 30px auto 0;
+  padding: 20px 25px;
+  color: whitesmoke;
+  background: none;
+  font-size: 14px;
+  text-decoration-color: whitesmoke;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 2px 2px 5px #0c4271;
+}
+#comment-submit:hover {
+  color: #0c4271 ;
+  background-color: whitesmoke;
+  border-color: #0c4271;
+  transition: 0.3s;
+}
+
+#list {
+  display: flex;
+  align-items: left; 
+  flex-direction: column;
+}
+#commentslist {
+  margin: 30px auto 0;
+  padding: 10px 25px;
+  color: whitesmoke;
+  background: none;
+  font-size: 14px;
+  text-decoration-color: whitesmoke;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  box-shadow: #0c4271;
+}
+#comment-text-field {
+  background-color:whitesmoke;
+  border-color: #0c4271;
+  box-shadow:2px 2px 5px #0c4271;
+  border-radius: 8px;
+}
+#comment-add {
+  margin: 30px auto 0;
+  padding: 10px 25px;
+  color: whitesmoke;
+  background: none;
+  font-size: 14px;
+  text-decoration-color: whitesmoke;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  box-shadow: #0c4271;
+}
+#comment-add:hover {
+  color: #0c4271 ;
+  background-color: whitesmoke;
+  border-color: #0c4271;
+  transition: 0.3s;
+}
+#comment-field {
+  background-color:whitesmoke;
+  border: none;
+  box-shadow: 2px 2px 5px #0c4271;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+h5 {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  justify-content: center;
+  height: 10vh;
+}
+#contact-button {
+  margin: 30px auto 0;
+  padding: 5px 5px;
+  color: whitesmoke;
+  background: none;
+  font-size: 14px;
+  text-decoration-color: whitesmoke;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  box-shadow: #0c4271;
+}
+#likeID {
+  margin: 30px auto 0;
+  padding: 10px 25px;
+  color: whitesmoke;
+  background: none;
+  font-size: 14px;
+  text-decoration-color: whitesmoke;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  box-shadow: #0c4271;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.weather {
+  display: flex; 
+  align-items: center;
+  margin: 10px 10;
+  font-size: 30px;
+}
+.weatherField {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  justify-content: center;
+  height: 10vh;
+  padding: 100px;
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: 'Source Code Pro', monospace;
+  text-shadow: 2px 2px 5px #0c4271;
+  scroll-behavior: smooth;
+}
+.likeMessage {
+  padding-top: 30px;
+}
+
+#location {
+  font-size: 60px;
+  padding: 10px;
+}
+#welcomeMessage {
+  padding: 20px;
+}

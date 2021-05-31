@@ -1,0 +1,27 @@
+{
+    "weather": 
+    [
+    {  
+    "temperature": "16 °C",
+    "wind": "24 km/h",
+    "description": "Sunny",
+    "forecast": [
+        {
+            "day": "1",
+            "temperature": "19 °C",
+            "wind": "15 km/h"
+        },
+        {
+            "day": "2",
+            "temperature": "24 °C",
+            "wind": "15 km/h"
+        },
+        {
+            "day": "3",
+            "temperature": "24 °C",
+            "wind": "21 km/h"
+        }
+        ]
+    }
+    ]
+}

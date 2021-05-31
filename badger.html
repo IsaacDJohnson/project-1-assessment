@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badger Weather App</title>
+    <link rel="stylesheet" href="badger.css" media="screen" />
+
+</head>
+
+<body>
+
+<section id='introduction'>     
+  
+<h1>Welcome to Badger!</h1>
+<div id = 'purpose'>           
+<p id = 'welcomeMessage'>Badger automatically generates local weather data based on where you are! <p>
+</div>
+</section>    
+
+<!-- API Weather Grab -->
+<div class="weatherField">
+  
+  <div id="location"></div>
+  <div class="desc"></div>
+  <div class="weather">
+      <div class="celsius"></div>
+        <div class="circle"></div>
+          <div class="far"></div>
+  </div>
+
+</div>
+
+
+<h5 class = "likeMessage">If you enjoy our website, leave a like!</h5>
+<!-- liker -->
+<div id = 'likeID' class = "getLikes">
+  <button class = "liker">likes <p class = "likeAmount">0</p></button>
+</div>
+
+
+<!-- <div id= 'profile_Picture'> 
+  <img src = 'http://farmersca.com/wp-content/uploads/2016/07/default-profile.png'>  
+</div>         -->
+
+
+<div id= 'result'>
+  <form id = 'search-result' action="" method="POST">
+      <label for = "add-to-result"></label>
+  </form>
+</div>
+
+<mainLister id = 'contactAdd'>
+<form id="contact-Add" action="" method="POST">
+        <label for="add-to-contacts">Add A New Favorite Location</label><br>
+        <input id = 'comment-field' type="text" name="friendAdd" placeholder="city.." style= "width:10%;">
+        <input id = 'comment-add' type="submit" value="add">
+      
+</form>
+
+
+<div id="list">
+      <p>Your Favorites list</p>
+      <ul id="contacts">
+      </ul>
+    </div>       
+</mainLister>        
+<div id="respond">
+
+<h5>leave a comment for our team with any feedback</h5>
+<main-Comment id= 'commentAdd'>
+<form action="submitComment.php" method="post" id="commentform">
+  <input  id="postID" type="text" name="post-ID"/>
+  <input id = comment-submit name="submit" type="submit" value="Submit" />
+</form>
+
+<div id="commentslist">
+  <p></p>
+  <ul id="comments">
+  </ul>
+</div>       
+</main-Comment>   
+
+
+
+<button class = "lightDark">Light/Dark Mode</button>
+
+    <script src= "jsBadger.js"></script>
+</body>
+
+</html>
+
